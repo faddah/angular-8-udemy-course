@@ -1,3 +1,7 @@
+.container {
+  width: 40%;
+}
+
 .row {
   display: flex;
   justify-content: center;
