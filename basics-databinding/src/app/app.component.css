@@ -1,12 +1,28 @@
+.row {
+  height: auto;
+  width: 40%;
+}
+
 h3 {
   color: darkblue;
 }
 
 img {
+  margin-bottom: 1rem;
+  margin-left: 50%;
+  margin-top: 1rem;
+  transform: translateX(-50%);
   height: auto;
   width: 75px;
 }
 
 .user-name {
   color: dodgerblue;
+  font-size: 18px;
+  font-weight: 900;
+  margin: 0.5% 0 1% 1%;
+}
+
+.user-button {
+  margin-left: 1rem;
 }
