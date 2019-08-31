@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   username: string = 'USERNAME';
+  userCreationStatus: string = 'A New User has not been created yet.'
+  userStore: string = '';
+
+  onCreateUser(event: Event) {
+    this.userStore = this.username;
+    this.userCreationStatus = 'The User Name was created; it is:  ' + this.userStore;
+    this.username = '';
+  }
 }
