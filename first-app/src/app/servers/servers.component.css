@@ -5,3 +5,14 @@
   margin: 0 0 2% 50%;
   transform: translateX(-50%);
 }
+
+.server-created {
+  color: dodgerblue;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 1rem 0;
+}
+
+.no-server {
+  color: grey;
+}
