@@ -4,6 +4,13 @@
       <img src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg" alt="Angular Shield Logo" class="logo">
       <h3>I'm in the AppComponent!</h3>
       <hr>
+      <label>Type your User Name here —</label>
+      <input
+        type="text"
+        class="form-control"
+        [(ngModel)]="username"
+      />
+      <p class="user-name">{{ username }}</p>
       <app-servers></app-servers>
       <!--<div app-servers></div>-->
       <!--<div class="app-servers"></div>-->
