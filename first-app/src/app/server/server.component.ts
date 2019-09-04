@@ -6,11 +6,11 @@ import { Component } from '@angular/core';
   // styleUrls: ['./server.component.css'],
   styles: [`
     .online {
-      color: cornsilk;
+      color: gold;
     }
 
     .offline {
-      color: goldenrod;
+      color: cornsilk;
     }
   `]
 })
